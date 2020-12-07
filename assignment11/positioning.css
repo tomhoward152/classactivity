@@ -1,0 +1,46 @@
+.main {
+    margin: 10px 100px 10px 100px;
+    font-size: 15px;
+    font-family: Helvetica, 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+
+.title {
+    font-size: 35px;
+    Margin: 10px 100px 10px 100px;
+}
+
+#fixed {
+    position: fixed;
+    width: 150px;
+    height: 90px;
+    background-color: #eee;
+    top: 0px;
+    left: 0%;
+    text-align: center;
+}
+#combo {
+    position: relative;
+    width: 750px;
+    height: 250px;  
+    overflow: visible;
+}
+
+#relative {
+    position: relative;
+    width: 750px;
+    height: 250px;
+    background-color:#eee;
+    text-align: center;
+}
+
+#absolute {
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    background-color: #999;
+    text-align: center;
+    bottom: 0px;
+    right: -50px;
+}
+
